@@ -16,7 +16,7 @@ class Comment (models.Model):
     body = models.CharField(max_length=200)
 
     def __str__(self):
-        return '{}: {}'.format(self.author_name, body)
+        return '{}: {}'.format(self.author_name, self.body)
 
 
 class Article (models.Model):
