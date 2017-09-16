@@ -18,3 +18,5 @@ u.set_password('admin')
 u.is_superuser = True
 u.is_staff = True
 u.save()
+
+print(u)
